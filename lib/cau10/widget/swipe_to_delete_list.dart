@@ -15,7 +15,7 @@ class _SwipeToDeleteListState extends State<SwipeToDeleteList> {
   @override
   Widget build(BuildContext context) {
     if (_items.isEmpty) {
-      return const Center(child: Text("Danh sách trống rồi HuyPhatt ơi!"));
+      return const Center(child: Text("Danh sách trống"));
     }
 
     return ListView.builder(
